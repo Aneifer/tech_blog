@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "8e2285fd"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "051266a4"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "26001b94"
+  },
+  "posts/warum-python/index.qmd": {
+    "index.html": "0c44550a"
+  },
+  "about.qmd": {
+    "about.html": "8db73beb"
+  },
+  "posts/erste-schritte-python/index.qmd": {
+    "index.html": "2c51d74d"
+  },
+  "posts/berufswechsel/index.qmd": {
+    "index.html": "f58bba7a"
+  }
+}

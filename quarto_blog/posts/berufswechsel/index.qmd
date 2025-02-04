@@ -1,0 +1,12 @@
+---
+title: "Neue Perspektiven"
+author: "Anna Neifer"
+date: "2024-12-13"
+categories: [Programming, Lernen, Python]
+---
+
+Auf diesem Blog schreibe ich darüber, wie ich Python, Data Science und Machine Learning lerne und mit Künstlicher Intelligenz arbeite.
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

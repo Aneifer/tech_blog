@@ -1,0 +1,21 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: none
+      text: My website
+      href: https://Aneifer.de
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/annaneifer
+    - icon: github
+      text: Github
+      href: https://github.com/Aneifer
+
+---
+
+Über diesen Blog
+Mein Name ist Anna Neifer, ich bin Data Scientist und Journalistin. Ich habe u.a. Wirtschaftswissenschaften mit Informatikanteil studiert.
+Auf diesem Blog schreibe ich darüber, wie ich Python, Data Science und Machine Learning lerne und mit Künstlicher Intelligenz arbeite.
