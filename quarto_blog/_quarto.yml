@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Alles rund um Python, Daten und Künstliche Intelligenz"
