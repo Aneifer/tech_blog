@@ -1,7 +1,7 @@
 ---
 title: "Warum ich angefangen habe, Python zu lernen"
 author: "Anna Neifer"
-date: "2025-02-01"
+date: "2025-01-01"
 categories: [Programming, Lernen, Python]
 ---
 

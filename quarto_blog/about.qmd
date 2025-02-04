@@ -4,12 +4,12 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: none
+    - icon: heart
       text: My website
       href: https://Aneifer.de
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/annaneifer
+      href: https://www.linkedin.com/in/anna-neifer/
     - icon: github
       text: Github
       href: https://github.com/Aneifer
