@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Über diesen Blog Mein Name ist Anna Neifer, ich bin Data Scientist und Journalistin. Ich habe u.a. Wirtschaftswissenschaften mit Informatikanteil studiert. Auf diesem Blog schreibe ich darüber, wie ich Python, Data Science und Machine Learning lerne und mit Künstlicher Intelligenz arbeite."
+  },
+  {
+    "objectID": "posts/berufswechsel/index.html",
+    "href": "posts/berufswechsel/index.html",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Auf diesem Blog schreibe ich darüber, wie ich Python, Data Science und Machine Learning lerne und mit Künstlicher Intelligenz arbeite.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anna Neifers Blog",
+    "section": "",
+    "text": "Erste Schritte mit Python: Taschenrechner\n\n\n\n\n\n\nProgrammieren\n\n\nPython\n\n\nTaschenrechner\n\n\n\n\n\n\n\n\n\nJan 3, 2025\n\n\nAnna Neifer\n\n\n\n\n\n\n\n\n\n\n\n\nWarum ich angefangen habe, Python zu lernen\n\n\n\n\n\n\nProgramming\n\n\nLernen\n\n\nPython\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\nAnna Neifer\n\n\n\n\n\n\n\n\n\n\n\n\nNeue Perspektiven\n\n\n\n\n\n\nProgramming\n\n\nLernen\n\n\nPython\n\n\n\n\n\n\n\n\n\nDec 13, 2024\n\n\nAnna Neifer\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html",
+    "href": "posts/erste-schritte-python/index.html",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Nachdem ich die Grundlagen von Python kennengelernt hatte, wollte ich mein Wissen in kleinen Projekten anwenden. Diese ersten Skripte halfen mir nicht nur, die Sprache besser zu verstehen, sondern auch, meine Motivation aufrechtzuerhalten.\n\n\nMein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.\ndef addiere(a, b): return a + b\ndef subtrahiere(a, b): return a - b\ndef multipliziere(a, b): return a * b\ndef dividiere(a, b): if b != 0: return a / b else: return “Division durch Null ist nicht erlaubt.”\n\n\nprint(addiere(5, 3)) # Ausgabe: 8 print(dividiere(10, 0)) # Ausgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.\n\n\n\n\nAls nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.\ndef wortzaehler(text): woerter = text.split() return len(woerter)\n\n\ntext = “Python ist eine großartige Programmiersprache.” print(wortzaehler(text)) # Ausgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.\n\n\n\n\nDiese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist.\n\n\n\nMeine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#projekt-1-einfache-taschenrechner-app",
+    "href": "posts/erste-schritte-python/index.html#projekt-1-einfache-taschenrechner-app",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.\ndef addiere(a, b): return a + b\ndef subtrahiere(a, b): return a - b\ndef multipliziere(a, b): return a * b\ndef dividiere(a, b): if b != 0: return a / b else: return “Division durch Null ist nicht erlaubt.”\n\n\nprint(addiere(5, 3)) # Ausgabe: 8 print(dividiere(10, 0)) # Ausgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
+    "href": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.\ndef wortzaehler(text): woerter = text.split() return len(woerter)\n\n\ntext = “Python ist eine großartige Programmiersprache.” print(wortzaehler(text)) # Ausgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
+    "href": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Diese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#fazit",
+    "href": "posts/erste-schritte-python/index.html#fazit",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Meine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen."
+  },
+  {
+    "objectID": "posts/warum-python/index.html",
+    "href": "posts/warum-python/index.html",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Sprachen sind Schlüssel, mit denen sich Türen zu verborgenen Welten öffnen lassen. Als Europäerin halte ich die Schlüssel zu sechs verschiedenen Welten in der Hand. Aber Programmiersprachen funktionieren anders, als die Sprachen mit denen ich mich bisher beschäftigt habe. Ich stand vor einem Rätsel. Es war im wahrsten Sinne des Wortes Code, den ich knacken wollte. Das ist der Ausgangspunkt meiner Reise gewesen, in die Welt von Objekten, Funktionen und Variablen.\n\n\nTechnologie hat mich schon immer fasziniert: Die Möglichkeit, eigene Ideen in die Tat umzusetzen und Probleme durch Code zu lösen. Ich habe immer wieder an die Schnittstelle von Innovation, Recherchen und Technologie gearbeitet. Als Data-Journalistin arbeitete ich an investigativen Projekten, darunter die Recherche zum Attentäter von Henriette Reker oder das Projekt Tatort Rechts. Mit Python habe ich Einblick in eine Sprache erlangt, die nicht nur in der Softwareentwicklung, sondern auch in der Datenanalyse und im Journalismus vielfältig einsetzbar ist. Die Verbindung von Code und investigativer Recherche eröffnet neue, spannende Möglichkeiten.\n\n\n\nDie Entscheidung für Python fiel mir leicht aus mehreren Gründen: Lesbarkeit und Einfachheit: Python ist bekannt für seine klare und leicht verständliche Syntax. Der Code ist intuitiv und leicht zu verstehen, was besonders für Einsteiger attraktiv ist. Vielseitigkeit: Python findet Anwendung in Webentwicklung, Datenanalyse, künstlicher Intelligenz und vielem mehr. Diese Vielseitigkeit ermöglicht es, unterschiedlichste Projekte umzusetzen. Große Community: Eine aktive Gemeinschaft bedeutet reichlich Ressourcen und Unterstützung für Anfänger. Veranstaltungen wie die PyCon, die ich 2024 besucht habe, bieten hervorragende Gelegenheiten zum Austausch und zur Weiterbildung. Beliebtheit: Python gehört zu den beliebtesten Programmiersprachen weltweit.\n\n\n\nPython ist eine universelle, höhere Programmiersprache, die Anfang der 1990er Jahre von Guido van Rossum entwickelt wurde. Sie zeichnet sich durch ihre einfache Syntax und Lesbarkeit aus, was sie besonders für Anfänger attraktiv macht. Python unterstützt mehrere Programmierparadigmen, darunter die objektorientierte, die aspektorientierte und die funktionale Programmierung. Besonderheiten von Python Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code. Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass Sie einer Variablen zunächst eine Zahl und später einen Text zuweisen können, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger. Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen. Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen.\n\n\n\nPython unterstützt verschiedene Programmierparadigmen, die unterschiedliche Ansätze zur Strukturierung und Organisation von Code bieten: Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes. Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code. Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen.\n\n\n\nDer Beginn meiner Python-Reise war geprägt von Neugier und dem Wunsch, Neues zu lernen. Jeder kleine Erfolg motivierte mich, weiterzumachen und tiefer in die Welt der Programmierung einzutauchen. Heute sehe ich Python nicht nur als Werkzeug, sondern als Brücke zwischen Technologie, Journalismus und Bildung – eine Schnittstelle, an der ich mit Begeisterung weiterarbeite.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#interesse-für-technologie",
+    "href": "posts/warum-python/index.html#interesse-für-technologie",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Technologie hat mich schon immer fasziniert: Die Möglichkeit, eigene Ideen in die Tat umzusetzen und Probleme durch Code zu lösen. Ich habe immer wieder an die Schnittstelle von Innovation, Recherchen und Technologie gearbeitet. Als Data-Journalistin arbeitete ich an investigativen Projekten, darunter die Recherche zum Attentäter von Henriette Reker oder das Projekt Tatort Rechts. Mit Python habe ich Einblick in eine Sprache erlangt, die nicht nur in der Softwareentwicklung, sondern auch in der Datenanalyse und im Journalismus vielfältig einsetzbar ist. Die Verbindung von Code und investigativer Recherche eröffnet neue, spannende Möglichkeiten."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#warum-ich-mich-für-python-entschieden-habe",
+    "href": "posts/warum-python/index.html#warum-ich-mich-für-python-entschieden-habe",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Die Entscheidung für Python fiel mir leicht aus mehreren Gründen: Lesbarkeit und Einfachheit: Python ist bekannt für seine klare und leicht verständliche Syntax. Der Code ist intuitiv und leicht zu verstehen, was besonders für Einsteiger attraktiv ist. Vielseitigkeit: Python findet Anwendung in Webentwicklung, Datenanalyse, künstlicher Intelligenz und vielem mehr. Diese Vielseitigkeit ermöglicht es, unterschiedlichste Projekte umzusetzen. Große Community: Eine aktive Gemeinschaft bedeutet reichlich Ressourcen und Unterstützung für Anfänger. Veranstaltungen wie die PyCon, die ich 2024 besucht habe, bieten hervorragende Gelegenheiten zum Austausch und zur Weiterbildung. Beliebtheit: Python gehört zu den beliebtesten Programmiersprachen weltweit."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#was-ist-python",
+    "href": "posts/warum-python/index.html#was-ist-python",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Python ist eine universelle, höhere Programmiersprache, die Anfang der 1990er Jahre von Guido van Rossum entwickelt wurde. Sie zeichnet sich durch ihre einfache Syntax und Lesbarkeit aus, was sie besonders für Anfänger attraktiv macht. Python unterstützt mehrere Programmierparadigmen, darunter die objektorientierte, die aspektorientierte und die funktionale Programmierung. Besonderheiten von Python Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code. Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass Sie einer Variablen zunächst eine Zahl und später einen Text zuweisen können, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger. Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen. Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#programmierparadigmen-in-python",
+    "href": "posts/warum-python/index.html#programmierparadigmen-in-python",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Python unterstützt verschiedene Programmierparadigmen, die unterschiedliche Ansätze zur Strukturierung und Organisation von Code bieten: Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes. Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code. Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#fazit",
+    "href": "posts/warum-python/index.html#fazit",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Der Beginn meiner Python-Reise war geprägt von Neugier und dem Wunsch, Neues zu lernen. Jeder kleine Erfolg motivierte mich, weiterzumachen und tiefer in die Welt der Programmierung einzutauchen. Heute sehe ich Python nicht nur als Werkzeug, sondern als Brücke zwischen Technologie, Journalismus und Bildung – eine Schnittstelle, an der ich mit Begeisterung weiterarbeite.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]
