@@ -16,7 +16,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.cssheart
 
