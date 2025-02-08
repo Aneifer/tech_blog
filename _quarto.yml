@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: world
+      - icon: heart
         href: https://aneifer.de
       - icon: github
         href: https://github.com/Aneifer

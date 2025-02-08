@@ -13,6 +13,7 @@ Diese ersten Skripte halfen mir nicht nur, die Sprache besser zu verstehen, sond
 ## Projekt 1: Einfache Taschenrechner-App
 Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.
 
+```
 def addiere(a, b):
     return a + b
 
@@ -27,22 +28,33 @@ def dividiere(a, b):
         return a / b
     else:
         return "Division durch Null ist nicht erlaubt."
-
+```
 ### Beispielhafte Nutzung
-print(addiere(5, 3))        # Ausgabe: 8
-print(dividiere(10, 0))     # Ausgabe: Division durch Null ist nicht erlaubt.
+```
+print(addiere(5, 3)) 
+``` 
+Ausgabe: 8
+
+```
+print(dividiere(10, 0))
+```
+Ausgabe: Division durch Null ist nicht erlaubt.
 Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.
 
 ## Projekt 2: Wortzähler für Texte
 Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.
-
+```
 def wortzaehler(text):
     woerter = text.split()
     return len(woerter)
+```
 
 ### Beispielhafte Nutzung
+```
 text = "Python ist eine großartige Programmiersprache."
-print(wortzaehler(text))    # Ausgabe: 6
+print(wortzaehler(text))
+```
+Ausgabe: 6
 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.
 
 ## Die Motivation hinter den Projekten

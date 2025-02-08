@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://aneifer.de"> <i class="bi bi-world" role="img">
+    <a class="nav-link" href="https://aneifer.de"> <i class="bi bi-heart" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -167,22 +167,39 @@ ul.task-list li input[type="checkbox"] {
 <section id="projekt-1-einfache-taschenrechner-app" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-1-einfache-taschenrechner-app">Projekt 1: Einfache Taschenrechner-App</h2>
 <p>Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.</p>
-<p>def addiere(a, b): return a + b</p>
-<p>def subtrahiere(a, b): return a - b</p>
-<p>def multipliziere(a, b): return a * b</p>
-<p>def dividiere(a, b): if b != 0: return a / b else: return “Division durch Null ist nicht erlaubt.”</p>
+<pre><code>def addiere(a, b):
+    return a + b
+
+def subtrahiere(a, b):
+    return a - b
+
+def multipliziere(a, b):
+    return a * b
+
+def dividiere(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Division durch Null ist nicht erlaubt."</code></pre>
 <section id="beispielhafte-nutzung" class="level3">
 <h3 class="anchored" data-anchor-id="beispielhafte-nutzung">Beispielhafte Nutzung</h3>
-<p>print(addiere(5, 3)) # Ausgabe: 8 print(dividiere(10, 0)) # Ausgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.</p>
+<pre><code>print(addiere(5, 3)) </code></pre>
+<p>Ausgabe: 8</p>
+<pre><code>print(dividiere(10, 0))</code></pre>
+<p>Ausgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.</p>
 </section>
 </section>
 <section id="projekt-2-wortzähler-für-texte" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-2-wortzähler-für-texte">Projekt 2: Wortzähler für Texte</h2>
 <p>Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.</p>
-<p>def wortzaehler(text): woerter = text.split() return len(woerter)</p>
+<pre><code>def wortzaehler(text):
+    woerter = text.split()
+    return len(woerter)</code></pre>
 <section id="beispielhafte-nutzung-1" class="level3">
 <h3 class="anchored" data-anchor-id="beispielhafte-nutzung-1">Beispielhafte Nutzung</h3>
-<p>text = “Python ist eine großartige Programmiersprache.” print(wortzaehler(text)) # Ausgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.</p>
+<pre><code>text = "Python ist eine großartige Programmiersprache."
+print(wortzaehler(text))</code></pre>
+<p>Ausgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.</p>
 </section>
 </section>
 <section id="die-motivation-hinter-den-projekten" class="level2">
