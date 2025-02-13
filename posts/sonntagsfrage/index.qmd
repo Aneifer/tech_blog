@@ -25,16 +25,15 @@ Ich habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen. Für mein 
 
 Grafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber ich verwende es hier für politische Daten. Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung.
 
-
 ## Heruasforderung beim CSV-Upload bei Grafana
 
-Grafana ist vom UX-Design recht übersichtlich.  Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: "Data is missing a number field". Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie "20.01.2024" nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:
+Grafana ist vom UX-Design recht übersichtlich. Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: "Data is missing a number field". Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie "20.01.2024" nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:
 
 ```
 df["date"] = pd.to_datetime(df["date"], format="%d.%m.%Y").dt.strftime("%Y-%m-%d")
 ```
 
-Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe "inline" eingegeben und dann lief die Visualisierung fehlerfrei.
+Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe ich "inline" eingegeben und dann lief die Visualisierung fehlerfrei.
 
 ![](2502_Grafana Dashboard Inline_Anna-Neifer.png)
 
@@ -68,7 +67,6 @@ Die AfD hat in den meisten Umfragen seit der Wahl zugelegt und profitiert offenb
 
 Die Linke pendelt in den Umfragen zumeist nur knapp über der Fünf-Prozent-Hürde. Sie hat in den letzten Jahren an Profil eingebüßt und scheint bislang nicht stark von der aktuellen Unzufriedenheit mit der Regierung zu profitieren.
 Weitere kleine Parteien (z.B. BSW oder Sonstige) liegen mehrheitlich stabil auf niedrigem Niveau. Einzelne Ausschläge nach oben sind selten und eher von kurzfristigen Ereignissen abhängig.
-
 
 ## Fazit
 

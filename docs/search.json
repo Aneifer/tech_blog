@@ -133,32 +133,25 @@
     "text": "BSD 3-Clause License\nCopyright (c) 2009-2012, Brian Granger, Min Ragan-Kelley\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
   },
   {
-    "objectID": "posts/erste-schritte-python/index.html",
-    "href": "posts/erste-schritte-python/index.html",
-    "title": "Erste Schritte mit Python: Rechner und Zähler",
-    "section": "",
-    "text": "Ist programmieren überhaupt etwas für mich? Bevor ich mich intensiver mit Python beschäftigt habe, wollte ich herausfinden, ob ich mit der Programmiersprache etwas anfangen kann. Also habe ich zunächst mit der Lern-App “Mimo” experimentiert, hier geht es zur Webseite https://mimo.org/. Spielerisch und in kleinen Projekten lernen Nutzer mit Mimo die Grundlagen von Python kennen.\n\n\nEines der ersten Projekt war ein einfacher Trinkgeldrechner, der grundlegende mathematische Operationen durchführen kann.\nbill = 18.80\ntip_percentage = 0.15\ntax_percentage = 0.067\n\ntip = bill * tip_percentage\nprint(f\"Tip: {tip}\")\n\ntax = bill * tax_percentage\nprint(f\"Tax: {tax}\")\n\ntotal = bill + tip + tax\n\n\nprint(f\"Total: {total}\")\nAusgabe: Tip: 2.82 Tax: 1.2596 Total: 22.8796\n\n\n\n\nEin anderes Projekt war ein Skript, das die Anzahl der Wörter in einem Text zählt.\ndef wortzaehler(text):\n    woerter = text.split()\n    return len(woerter)\n\n\ntext = \"Sein, oder nicht sein, das ist hier die Frage.\"\nprint(wortzaehler(text))\nAusgabe: 9\n\n\n\n\nDiese kleinen Projekte haben mir die Möglichkeit gegeben, praktische Probleme zu lösen und mein Wissen anzuwenden. Dadurch habe ich einen Einblick in Python bekommen und mich entschieden, ich möchte noch mehr mit Python arbeiten."
-  },
-  {
     "objectID": "posts/erste-schritte-python/index.html#projekt-1-einfache-trinkgeldrechner-app",
     "href": "posts/erste-schritte-python/index.html#projekt-1-einfache-trinkgeldrechner-app",
     "title": "Erste Schritte mit Python: Rechner und Zähler",
-    "section": "",
-    "text": "Eines der ersten Projekt war ein einfacher Trinkgeldrechner, der grundlegende mathematische Operationen durchführen kann.\nbill = 18.80\ntip_percentage = 0.15\ntax_percentage = 0.067\n\ntip = bill * tip_percentage\nprint(f\"Tip: {tip}\")\n\ntax = bill * tax_percentage\nprint(f\"Tax: {tax}\")\n\ntotal = bill + tip + tax\n\n\nprint(f\"Total: {total}\")\nAusgabe: Tip: 2.82 Tax: 1.2596 Total: 22.8796"
+    "section": "Projekt 1: Einfache Trinkgeldrechner-App",
+    "text": "Projekt 1: Einfache Trinkgeldrechner-App\nEines der ersten Projekt war ein einfacher Trinkgeldrechner, der grundlegende mathematische Operationen durchführen kann.\nbill = 18.80\ntip_percentage = 0.15\ntax_percentage = 0.067\n\ntip = bill * tip_percentage\nprint(f\"Tip: {tip}\")\n\ntax = bill * tax_percentage\nprint(f\"Tax: {tax}\")\n\ntotal = bill + tip + tax\n\nBeispielhafte Nutzung\nprint(f\"Total: {total}\")\nAusgabe: Tip: 2.82 Tax: 1.2596 Total: 22.8796"
   },
   {
     "objectID": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
     "href": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
     "title": "Erste Schritte mit Python: Rechner und Zähler",
-    "section": "",
-    "text": "Ein anderes Projekt war ein Skript, das die Anzahl der Wörter in einem Text zählt.\ndef wortzaehler(text):\n    woerter = text.split()\n    return len(woerter)\n\n\ntext = \"Sein, oder nicht sein, das ist hier die Frage.\"\nprint(wortzaehler(text))\nAusgabe: 9"
+    "section": "Projekt 2: Wortzähler für Texte",
+    "text": "Projekt 2: Wortzähler für Texte\nEin anderes Projekt war ein Skript, das die Anzahl der Wörter in einem Text zählt.\ndef wortzaehler(text):\n    woerter = text.split()\n    return len(woerter)\n\nBeispielhafte Nutzung\ntext = \"Sein, oder nicht sein, das ist hier die Frage.\"\nprint(wortzaehler(text))\nAusgabe: 9"
   },
   {
     "objectID": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
     "href": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
     "title": "Erste Schritte mit Python: Rechner und Zähler",
-    "section": "",
-    "text": "Diese kleinen Projekte haben mir die Möglichkeit gegeben, praktische Probleme zu lösen und mein Wissen anzuwenden. Dadurch habe ich einen Einblick in Python bekommen und mich entschieden, ich möchte noch mehr mit Python arbeiten."
+    "section": "Die Motivation hinter den Projekten",
+    "text": "Die Motivation hinter den Projekten\nDiese kleinen Projekte haben mir die Möglichkeit gegeben, praktische Probleme zu lösen und mein Wissen anzuwenden. Dadurch habe ich einen Einblick in Python bekommen und mich entschieden, ich möchte noch mehr mit Python arbeiten."
   },
   {
     "objectID": "posts/sonntagsfrage/index.html#was-ist-die-sonntagsfrage",
@@ -186,7 +179,7 @@
     "href": "posts/sonntagsfrage/index.html#heruasforderung-beim-csv-upload-bei-grafana",
     "title": "Grafana-Dashboard zur Sonntagsfrage",
     "section": "Heruasforderung beim CSV-Upload bei Grafana",
-    "text": "Heruasforderung beim CSV-Upload bei Grafana\nGrafana ist vom UX-Design recht übersichtlich. Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:\ndf[\"date\"] = pd.to_datetime(df[\"date\"], format=\"%d.%m.%Y\").dt.strftime(\"%Y-%m-%d\")\nAußerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe “inline” eingegeben und dann lief die Visualisierung fehlerfrei."
+    "text": "Heruasforderung beim CSV-Upload bei Grafana\nGrafana ist vom UX-Design recht übersichtlich. Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:\ndf[\"date\"] = pd.to_datetime(df[\"date\"], format=\"%d.%m.%Y\").dt.strftime(\"%Y-%m-%d\")\nAußerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe ich “inline” eingegeben und dann lief die Visualisierung fehlerfrei."
   },
   {
     "objectID": "posts/sonntagsfrage/index.html#erkenntnisse-aus-den-daten",

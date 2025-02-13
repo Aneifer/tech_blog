@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="heruasforderung-beim-csv-upload-bei-grafana">Heruasforderung beim CSV-Upload bei Grafana</h2>
 <p>Grafana ist vom UX-Design recht übersichtlich. Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:</p>
 <pre><code>df["date"] = pd.to_datetime(df["date"], format="%d.%m.%Y").dt.strftime("%Y-%m-%d")</code></pre>
-<p>Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe “inline” eingegeben und dann lief die Visualisierung fehlerfrei.</p>
+<p>Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe ich “inline” eingegeben und dann lief die Visualisierung fehlerfrei.</p>
 <p><img src="2502_Grafana Dashboard Inline_Anna-Neifer.png" class="img-fluid"></p>
 </section>
 <section id="erkenntnisse-aus-den-daten" class="level2">
