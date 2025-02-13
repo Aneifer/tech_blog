@@ -16,8 +16,6 @@ about:
 
 ---
 
-# Hey, ich bin Anna Neifer
-
 Ich bin Data Scientist und Journalistin. Ich habe unter anderem Wirtschaftswissenschaften mit Informatikanteil studiert. Für meinen Master bin ich durch Neuseeland gereist und habe eine Videodokumentation über junge Māori produziert.
 Nach meinem Volontariat beim Westdeutschen Rundfunk, habe ich als Reporterin und Redakteurin in verschiedenen Redaktionen gearbeitet. Einer meiner Schwerpunkte liegt im Bereich Investigation.
 Im Jahr 2023 habe ich angefangen, mir selbst programmieren beizubringen und habe danach verschiedene Kurse für Python und Data Science besucht. 
