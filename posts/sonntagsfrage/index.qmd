@@ -5,6 +5,8 @@ date: "2025-02-10"
 categories: [Politik, Code, Grafana]
 ---
 
+![](bundestag_wahl_anna-neifer.jpg)
+
 # Umfragen zur Bundestagswahl: Mein Grafana-Dashboard zur Sonntagsfrage
 
 Die Bundestagswahl 2025 rückt immer näher. Ich habe mich gefragt, wie sich die Umfragewerte seit der letzten Bundestagswahl entwickelt haben und ob sich Trends darin erkennen lassen. Dafür habe ich mir ein Dashboard in Grafana gebaut und die Werte zur sogenannten "Sonntagsfrage" visualisiert.
