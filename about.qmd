@@ -1,5 +1,5 @@
 ---
-title: "Hey, ich bin Anna Neifer"
+title: "About"
 image: Anna-Neifer.png
 about:
   template: jolla

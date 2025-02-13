@@ -2,7 +2,7 @@
 title: "Warum ich angefangen habe, Python zu lernen"
 author: "Anna Neifer"
 date: "2023-09-10"
-categories: [Programmieren, Community, Python]
+categories: [Community, Python]
 ---
 
 # Warum ich angefangen habe, Python zu lernen
