@@ -1,0 +1,44 @@
+---
+title: "Neue Perspektiven"
+author: "Anna Neifer"
+date: "2025-02-10"
+categories: [Programming, Dashboard, Grafana]
+---
+
+# Umfragen zur Bundestagswahl: Mein Grafana-Dashboard zur Sonntagsfrage
+
+Die Bundestagswahl 2025 rückt immer näher. Zeit einen Blick auf die Entwicklung der Umfragewerte zu werfen. Dafür habe ich mir ein Dashboard in Grafana gebaut, um eine schnelle Übersicht über die Entwicklung der Sonntagsfrage seit der letzten Bundestagswahl zu beekommen.
+
+## Warum Grafana?
+
+Grafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber warum nicht auch für politische Daten? Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung.
+
+## Datenquelle Infratest Dimap
+
+Ich habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen und mich für dieses Projekt für die Daten von Infratest Dimap entschieden. Zunächst habe ich die Daten in einer Excel-Tabelle gespeichert, die Prozentzeichen entfernt und dann in einem CSV abgelegt. 
+
+## Heruasforderung beim CSV-Upload bei Grafana
+
+Grafana ist sehr übersichtlich und es ist einfach, ein neues Dashboard zu erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: "Data is missing a number field". Beim Debugging stellte sich heraus, dass Grafana die deutsche Datumsschreibweise wie "20.01.2024" nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:
+
+'''
+df["date"] = pd.to_datetime(df["date"], format="%d.%m.%Y").dt.strftime("%Y-%m-%d")
+'''
+
+Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Letztlich habe ich die bereinigten CSV-Daten "inline" eingegeben und dann lief die Visualisierung fehlerfrei.
+
+## Erkenntnisse aus den Daten
+
+
+
+## Fazit
+
+Mit Grafana lassen sich nicht nur technische oder wirtschaftliche Daten visualisieren, sondern auch politische Entwicklungen.
+
+
+
+.
+
+![](2502_sonntagsfrage_grafana_dashboard_anna-neifer.png)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
