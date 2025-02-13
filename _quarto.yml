@@ -1,6 +1,9 @@
 project:
-  type: website
+  type: blog
   output-dir: docs
+  resources:
+    - CNAME
+
 
 website:
   title: "Alles rund um Python, Daten und Künstliche Intelligenz"

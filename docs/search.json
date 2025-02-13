@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Über diesen Blog Mein Name ist Anna Neifer, ich bin Data Scientist und Journalistin. Ich habe u.a. Wirtschaftswissenschaften mit Informatikanteil studiert. Auf diesem Blog schreibe ich darüber, wie ich Python, Data Science und Machine Learning lerne und mit Künstlicher Intelligenz arbeite."
+  },
+  {
+    "objectID": "posts/warum-python/index.html",
+    "href": "posts/warum-python/index.html",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Sprachen sind Schlüssel, mit denen sich Türen zu verborgenen Welten öffnen lassen. Als Europäerin halte ich die Schlüssel zu sechs verschiedenen Welten in der Hand. Aber Programmiersprachen funktionieren anders, als die Sprachen mit denen ich mich bisher beschäftigt habe. Ich stand vor einem Rätsel. Es war im wahrsten Sinne des Wortes Code, den ich knacken wollte. Das ist der Ausgangspunkt meiner Reise gewesen, in die Welt von Objekten, Funktionen und Variablen.\n\n\nTechnologie hat mich schon immer fasziniert: Die Möglichkeit, eigene Ideen in die Tat umzusetzen und Probleme durch Code zu lösen. Ich habe immer wieder an die Schnittstelle von Innovation, Recherchen und Technologie gearbeitet. Als Data-Journalistin arbeitete ich an investigativen Projekten, darunter die Recherche zum Attentäter von Henriette Reker oder das Projekt Tatort Rechts. Mit Python habe ich Einblick in eine Sprache erlangt, die nicht nur in der Softwareentwicklung, sondern auch in der Datenanalyse und im Journalismus vielfältig einsetzbar ist. Die Verbindung von Code und investigativer Recherche eröffnet neue, spannende Möglichkeiten.\n\n\n\nDie Entscheidung für Python fiel mir leicht aus mehreren Gründen: Lesbarkeit und Einfachheit: Python ist bekannt für seine klare und leicht verständliche Syntax. Der Code ist intuitiv und leicht zu verstehen, was besonders für Einsteiger attraktiv ist. Vielseitigkeit: Python findet Anwendung in Webentwicklung, Datenanalyse, künstlicher Intelligenz und vielem mehr. Diese Vielseitigkeit ermöglicht es, unterschiedlichste Projekte umzusetzen. Große Community: Eine aktive Gemeinschaft bedeutet reichlich Ressourcen und Unterstützung für Anfänger. Veranstaltungen wie die PyCon, die ich 2024 besucht habe, bieten hervorragende Gelegenheiten zum Austausch und zur Weiterbildung. Beliebtheit: Python gehört zu den beliebtesten Programmiersprachen weltweit.\n\n\n\nPython ist eine universelle, höhere Programmiersprache, die Anfang der 1990er Jahre von Guido van Rossum entwickelt wurde. Sie zeichnet sich durch ihre einfache Syntax und Lesbarkeit aus, was sie besonders für Anfänger attraktiv macht. Python unterstützt mehrere Programmierparadigmen, darunter die objektorientierte, die aspektorientierte und die funktionale Programmierung. Besonderheiten von Python Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code. Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass Sie einer Variablen zunächst eine Zahl und später einen Text zuweisen können, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger. Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen. Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen.\n\n\n\nPython unterstützt verschiedene Programmierparadigmen, die unterschiedliche Ansätze zur Strukturierung und Organisation von Code bieten: Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes. Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code. Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen.\n\n\n\nDer Beginn meiner Python-Reise war geprägt von Neugier und dem Wunsch, Neues zu lernen. Jeder kleine Erfolg motivierte mich, weiterzumachen und tiefer in die Welt der Programmierung einzutauchen. Heute sehe ich Python nicht nur als Werkzeug, sondern als Brücke zwischen Technologie, Journalismus und Bildung – eine Schnittstelle, an der ich mit Begeisterung weiterarbeite.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#interesse-für-technologie",
+    "href": "posts/warum-python/index.html#interesse-für-technologie",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Technologie hat mich schon immer fasziniert: Die Möglichkeit, eigene Ideen in die Tat umzusetzen und Probleme durch Code zu lösen. Ich habe immer wieder an die Schnittstelle von Innovation, Recherchen und Technologie gearbeitet. Als Data-Journalistin arbeitete ich an investigativen Projekten, darunter die Recherche zum Attentäter von Henriette Reker oder das Projekt Tatort Rechts. Mit Python habe ich Einblick in eine Sprache erlangt, die nicht nur in der Softwareentwicklung, sondern auch in der Datenanalyse und im Journalismus vielfältig einsetzbar ist. Die Verbindung von Code und investigativer Recherche eröffnet neue, spannende Möglichkeiten."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#warum-ich-mich-für-python-entschieden-habe",
+    "href": "posts/warum-python/index.html#warum-ich-mich-für-python-entschieden-habe",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Die Entscheidung für Python fiel mir leicht aus mehreren Gründen: Lesbarkeit und Einfachheit: Python ist bekannt für seine klare und leicht verständliche Syntax. Der Code ist intuitiv und leicht zu verstehen, was besonders für Einsteiger attraktiv ist. Vielseitigkeit: Python findet Anwendung in Webentwicklung, Datenanalyse, künstlicher Intelligenz und vielem mehr. Diese Vielseitigkeit ermöglicht es, unterschiedlichste Projekte umzusetzen. Große Community: Eine aktive Gemeinschaft bedeutet reichlich Ressourcen und Unterstützung für Anfänger. Veranstaltungen wie die PyCon, die ich 2024 besucht habe, bieten hervorragende Gelegenheiten zum Austausch und zur Weiterbildung. Beliebtheit: Python gehört zu den beliebtesten Programmiersprachen weltweit."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#was-ist-python",
+    "href": "posts/warum-python/index.html#was-ist-python",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Python ist eine universelle, höhere Programmiersprache, die Anfang der 1990er Jahre von Guido van Rossum entwickelt wurde. Sie zeichnet sich durch ihre einfache Syntax und Lesbarkeit aus, was sie besonders für Anfänger attraktiv macht. Python unterstützt mehrere Programmierparadigmen, darunter die objektorientierte, die aspektorientierte und die funktionale Programmierung. Besonderheiten von Python Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code. Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass Sie einer Variablen zunächst eine Zahl und später einen Text zuweisen können, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger. Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen. Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#programmierparadigmen-in-python",
+    "href": "posts/warum-python/index.html#programmierparadigmen-in-python",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Python unterstützt verschiedene Programmierparadigmen, die unterschiedliche Ansätze zur Strukturierung und Organisation von Code bieten: Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes. Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code. Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen."
+  },
+  {
+    "objectID": "posts/warum-python/index.html#fazit",
+    "href": "posts/warum-python/index.html#fazit",
+    "title": "Warum ich angefangen habe, Python zu lernen",
+    "section": "",
+    "text": "Der Beginn meiner Python-Reise war geprägt von Neugier und dem Wunsch, Neues zu lernen. Jeder kleine Erfolg motivierte mich, weiterzumachen und tiefer in die Welt der Programmierung einzutauchen. Heute sehe ich Python nicht nur als Werkzeug, sondern als Brücke zwischen Technologie, Journalismus und Bildung – eine Schnittstelle, an der ich mit Begeisterung weiterarbeite.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/pyzmq-26.2.1.dist-info/licenses/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/pyzmq-26.2.1.dist-info/licenses/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "BSD 3-Clause License\nCopyright (c) 2009-2012, Brian Granger, Min Ragan-Kelley\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "Copyright © 2019, Encode OSS Ltd. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/httpcore-1.0.7.dist-info/licenses/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/httpcore-1.0.7.dist-info/licenses/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "Copyright © 2020, Encode OSS Ltd. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/numpy/random/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/numpy/random/LICENSE.html",
+    "title": "NCSA Open Source License",
+    "section": "",
+    "text": "This software is dual-licensed under the The University of Illinois/NCSA Open Source License (NCSA) and The 3-Clause BSD License\n\nNCSA Open Source License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nDeveloped by: Kevin Sheppard (kevin.sheppard@economics.ox.ac.uk, kevin.k.sheppard@gmail.com) http://www.kevinsheppard.com\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\nNeither the names of Kevin Sheppard, nor the names of any contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n\n\n3-Clause BSD License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nComponents\nMany parts of this module have been derived from original sources, often the algorithm’s designer. Component licenses are located with the component code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anna Neifers Blog",
+    "section": "",
+    "text": "Neue Perspektiven\n\n\n\n\n\n\nProgramming\n\n\nDashboard\n\n\nGrafana\n\n\n\n\n\n\n\n\n\nFeb 10, 2025\n\n\nAnna Neifer\n\n\n\n\n\n\n\n\n\n\n\n\nErste Schritte mit Python: Taschenrechner\n\n\n\n\n\n\nProgrammieren\n\n\nPython\n\n\nTaschenrechner\n\n\n\n\n\n\n\n\n\nJan 3, 2025\n\n\nAnna Neifer\n\n\n\n\n\n\n\n\n\n\n\n\nWarum ich angefangen habe, Python zu lernen\n\n\n\n\n\n\nProgramming\n\n\nLernen\n\n\nPython\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\nAnna Neifer\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2018 - 2024 Isaac Muse isaacmuse@gmail.com\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/narwhals-1.25.2.dist-info/licenses/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/narwhals-1.25.2.dist-info/licenses/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2024, Marco Gorelli\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "BSD 3-Clause License\nCopyright (c) 2013-2024, Kim Davies and contributors. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "tech_blog/lib/python3.12/site-packages/seaborn-0.13.2.dist-info/LICENSE.html",
+    "href": "tech_blog/lib/python3.12/site-packages/seaborn-0.13.2.dist-info/LICENSE.html",
+    "title": "Alles rund um Python, Daten und Künstliche Intelligenz",
+    "section": "",
+    "text": "Copyright (c) 2012-2023, Michael L. Waskom All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the project nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html",
+    "href": "posts/erste-schritte-python/index.html",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Nachdem ich die Grundlagen von Python kennengelernt hatte, wollte ich mein Wissen in kleinen Projekten anwenden. Diese ersten Skripte halfen mir nicht nur, die Sprache besser zu verstehen, sondern auch, meine Motivation aufrechtzuerhalten.\n\n\nMein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.\ndef addiere(a, b):\n    return a + b\n\ndef subtrahiere(a, b):\n    return a - b\n\ndef multipliziere(a, b):\n    return a * b\n\ndef dividiere(a, b):\n    if b != 0:\n        return a / b\n    else:\n        return \"Division durch Null ist nicht erlaubt.\"\n\n\nprint(addiere(5, 3)) \nAusgabe: 8\nprint(dividiere(10, 0))\nAusgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.\n\n\n\n\nAls nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.\ndef wortzaehler(text):\n    woerter = text.split()\n    return len(woerter)\n\n\ntext = \"Python ist eine großartige Programmiersprache.\"\nprint(wortzaehler(text))\nAusgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.\n\n\n\n\nDiese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist.\n\n\n\nMeine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#projekt-1-einfache-taschenrechner-app",
+    "href": "posts/erste-schritte-python/index.html#projekt-1-einfache-taschenrechner-app",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.\ndef addiere(a, b):\n    return a + b\n\ndef subtrahiere(a, b):\n    return a - b\n\ndef multipliziere(a, b):\n    return a * b\n\ndef dividiere(a, b):\n    if b != 0:\n        return a / b\n    else:\n        return \"Division durch Null ist nicht erlaubt.\"\n\n\nprint(addiere(5, 3)) \nAusgabe: 8\nprint(dividiere(10, 0))\nAusgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
+    "href": "posts/erste-schritte-python/index.html#projekt-2-wortzähler-für-texte",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.\ndef wortzaehler(text):\n    woerter = text.split()\n    return len(woerter)\n\n\ntext = \"Python ist eine großartige Programmiersprache.\"\nprint(wortzaehler(text))\nAusgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
+    "href": "posts/erste-schritte-python/index.html#die-motivation-hinter-den-projekten",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Diese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist."
+  },
+  {
+    "objectID": "posts/erste-schritte-python/index.html#fazit",
+    "href": "posts/erste-schritte-python/index.html#fazit",
+    "title": "Erste Schritte mit Python: Taschenrechner",
+    "section": "",
+    "text": "Meine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen."
+  },
+  {
+    "objectID": "posts/sonntagsfrage/index.html",
+    "href": "posts/sonntagsfrage/index.html",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Die Bundestagswahl 2025 rückt immer näher. Zeit einen Blick auf die Entwicklung der Umfragewerte zu werfen. Dafür habe ich mir ein Dashboard in Grafana gebaut, um eine schnelle Übersicht über die Entwicklung der Sonntagsfrage seit der letzten Bundestagswahl zu beekommen.\n\n\nGrafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber warum nicht auch für politische Daten? Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung.\n\n\n\nIch habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen und mich für dieses Projekt für die Daten von Infratest Dimap entschieden. Zunächst habe ich die Daten in einer Excel-Tabelle gespeichert, die Prozentzeichen entfernt und dann in einem CSV abgelegt.\n\n\n\nGrafana ist sehr übersichtlich und es ist einfach, ein neues Dashboard zu erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellte sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:\n’’’ df[“date”] = pd.to_datetime(df[“date”], format=“%d.%m.%Y”).dt.strftime(“%Y-%m-%d”) ’’’\nAußerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Letztlich habe ich die bereinigten CSV-Daten “inline” eingegeben und dann lief die Visualisierung fehlerfrei.\n\n\n\n\n\n\nMit Grafana lassen sich nicht nur technische oder wirtschaftliche Daten visualisieren, sondern auch politische Entwicklungen.\n.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/sonntagsfrage/index.html#warum-grafana",
+    "href": "posts/sonntagsfrage/index.html#warum-grafana",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Grafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber warum nicht auch für politische Daten? Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung."
+  },
+  {
+    "objectID": "posts/sonntagsfrage/index.html#datenquelle-infratest-dimap",
+    "href": "posts/sonntagsfrage/index.html#datenquelle-infratest-dimap",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Ich habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen und mich für dieses Projekt für die Daten von Infratest Dimap entschieden. Zunächst habe ich die Daten in einer Excel-Tabelle gespeichert, die Prozentzeichen entfernt und dann in einem CSV abgelegt."
+  },
+  {
+    "objectID": "posts/sonntagsfrage/index.html#heruasforderung-beim-csv-upload-bei-grafana",
+    "href": "posts/sonntagsfrage/index.html#heruasforderung-beim-csv-upload-bei-grafana",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Grafana ist sehr übersichtlich und es ist einfach, ein neues Dashboard zu erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellte sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:\n’’’ df[“date”] = pd.to_datetime(df[“date”], format=“%d.%m.%Y”).dt.strftime(“%Y-%m-%d”) ’’’\nAußerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Letztlich habe ich die bereinigten CSV-Daten “inline” eingegeben und dann lief die Visualisierung fehlerfrei."
+  },
+  {
+    "objectID": "posts/sonntagsfrage/index.html#fazit",
+    "href": "posts/sonntagsfrage/index.html#fazit",
+    "title": "Neue Perspektiven",
+    "section": "",
+    "text": "Mit Grafana lassen sich nicht nur technische oder wirtschaftliche Daten visualisieren, sondern auch politische Entwicklungen.\n.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]
