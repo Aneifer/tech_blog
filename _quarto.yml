@@ -1,5 +1,5 @@
 project:
-  type: blog
+  type: website
   output-dir: docs
   resources:
     - CNAME

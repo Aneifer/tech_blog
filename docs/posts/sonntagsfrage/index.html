@@ -122,8 +122,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title column-body">
       <h1 class="title">Neue Perspektiven</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Programming</div>
-                <div class="quarto-category">Dashboard</div>
+                <div class="quarto-category">Politik</div>
+                <div class="quarto-category">Code</div>
                 <div class="quarto-category">Grafana</div>
               </div>
                   </div>
@@ -163,30 +163,65 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="umfragen-zur-bundestagswahl-mein-grafana-dashboard-zur-sonntagsfrage" class="level1">
 <h1>Umfragen zur Bundestagswahl: Mein Grafana-Dashboard zur Sonntagsfrage</h1>
-<p>Die Bundestagswahl 2025 rückt immer näher. Zeit einen Blick auf die Entwicklung der Umfragewerte zu werfen. Dafür habe ich mir ein Dashboard in Grafana gebaut, um eine schnelle Übersicht über die Entwicklung der Sonntagsfrage seit der letzten Bundestagswahl zu beekommen.</p>
-<section id="warum-grafana" class="level2">
-<h2 class="anchored" data-anchor-id="warum-grafana">Warum Grafana?</h2>
-<p>Grafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber warum nicht auch für politische Daten? Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung.</p>
+<p>Die Bundestagswahl 2025 rückt immer näher. Ich habe mich gefragt, wie sich die Umfragewerte seit der letzten Bundestagswahl entwickelt haben und ob sich Trends darin erkennen lassen. Dafür habe ich mir ein Dashboard in Grafana gebaut und die Werte zur sogenannten “Sonntagsfrage” visualisiert.</p>
+<section id="was-ist-die-sonntagsfrage" class="level2">
+<h2 class="anchored" data-anchor-id="was-ist-die-sonntagsfrage">Was ist die Sonntagsfrage?</h2>
+<p>Die sogenannte “Sonntagsfrage” ist ein Instrument der Meinungsforschung. Dabei werden Bürger gefragt, welche Partei sie wählen würden, wenn am kommenden Sonntag Bundestagswahl wäre. Es geht hier also darum, ein Stimmungsbild zu zeichnen und Trends zu erkennen. Für die Wähler, Medien und Politiker sind die Ergebnisse dieser Umfragen von Interesse und können die Strategie des Wahlkampfes beeinflussen.</p>
 </section>
 <section id="datenquelle-infratest-dimap" class="level2">
 <h2 class="anchored" data-anchor-id="datenquelle-infratest-dimap">Datenquelle Infratest Dimap</h2>
-<p>Ich habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen und mich für dieses Projekt für die Daten von Infratest Dimap entschieden. Zunächst habe ich die Daten in einer Excel-Tabelle gespeichert, die Prozentzeichen entfernt und dann in einem CSV abgelegt.</p>
+<p>Ich habe die Umfrageanbieter auf wahlrecht.de miteinander verglichen. Für mein Projekt habe ich mich für die Daten von Infratest Dimap entschieden. Zunächst habe ich die Daten in einer Excel-Tabelle gespeichert, die Prozentzeichen entfernt und dann in einem CSV abgelegt.</p>
+<p><img src="2502_sonntagsfrage_grafana_dashboard_anna-neifer.png" class="img-fluid"></p>
+</section>
+<section id="warum-grafana" class="level2">
+<h2 class="anchored" data-anchor-id="warum-grafana">Warum Grafana?</h2>
+<p>Grafana ist ein Open-Source-Tool für die Visualisierung von Daten. Es wird oft für System-Monitoring und Business-Intelligence eingesetzt, aber ich verwende es hier für politische Daten. Gerade wenn es darum geht, langfristige Entwicklungen zu beobachten, bietet Grafana mit seinen Zeitreihen-Visualisierungen eine übersichtliche Lösung.</p>
 </section>
 <section id="heruasforderung-beim-csv-upload-bei-grafana" class="level2">
 <h2 class="anchored" data-anchor-id="heruasforderung-beim-csv-upload-bei-grafana">Heruasforderung beim CSV-Upload bei Grafana</h2>
-<p>Grafana ist sehr übersichtlich und es ist einfach, ein neues Dashboard zu erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellte sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:</p>
-<p>’’’ df[“date”] = pd.to_datetime(df[“date”], format=“%d.%m.%Y”).dt.strftime(“%Y-%m-%d”) ’’’</p>
-<p>Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Letztlich habe ich die bereinigten CSV-Daten “inline” eingegeben und dann lief die Visualisierung fehlerfrei.</p>
+<p>Grafana ist vom UX-Design recht übersichtlich. Es lässt sich leicht ein neues Dashboard erstellen. Als ich mein CSV hochgeladen habe, kam zunächst eine Fehlermeldung: “Data is missing a number field”. Beim Debugging stellt sich heraus, dass Grafana die deutsche Datumsschreibweise wie “20.01.2024” nicht erkennt. Mit einem Python-Skript habe ich dann das Datum an das erwartete Format angepasst:</p>
+<pre><code>df["date"] = pd.to_datetime(df["date"], format="%d.%m.%Y").dt.strftime("%Y-%m-%d")</code></pre>
+<p>Außerdem habe ich vorsichtshalber in den Daten auf deutsche Sonderzeichen verzichtet. Die bereinigten CSV-Daten habe “inline” eingegeben und dann lief die Visualisierung fehlerfrei.</p>
+<p><img src="2502_Grafana Dashboard Inline_Anna-Neifer.png" class="img-fluid"></p>
 </section>
 <section id="erkenntnisse-aus-den-daten" class="level2">
 <h2 class="anchored" data-anchor-id="erkenntnisse-aus-den-daten">Erkenntnisse aus den Daten</h2>
+<p>Seit der Bundestagswahl 2021 haben sich die Zustimmungswerte der Parteien in den Sonntagsfragen teils deutlich verändert. Ein Blick auf die Umfragereihen liefert ein spannendes Bild der aktuellen politischen Stimmung in Deutschland:</p>
+<section id="ausgangslage-wahlergebnis-als-startpunkt" class="level3">
+<h3 class="anchored" data-anchor-id="ausgangslage-wahlergebnis-als-startpunkt">Ausgangslage: Wahlergebnis als Startpunkt</h3>
+<p>Die Datenreihen setzen jeweils bei den real erzielten Stimmanteilen der Bundestagswahl 2021 an, bevor sie in die fortlaufenden Umfragewerte übergehen. Dadurch wird deutlich, in welchem Maße sich die Zustimmung für jede Partei seit der Wahl verändert hat.</p>
+</section>
+<section id="deutliche-verluste-bei-den-regierungsparteien" class="level3">
+<h3 class="anchored" data-anchor-id="deutliche-verluste-bei-den-regierungsparteien">Deutliche Verluste bei den Regierungsparteien</h3>
+<p>Vergleicht man die aktuellen Umfragewerte mit den Wahlergebnissen, wird klar, dass alle Regierungsparteien (SPD, Grüne und FDP) mehr oder weniger stark an Zustimmung eingebüßt haben. Dabei fällt vor allem auf:</p>
+<ul>
+<li>SPD: War 2021 noch Wahlsiegerin, liegt heute jedoch spürbar hinter ihren ursprünglichen Wahlwerten zurück.</li>
+<li>Grüne: Konnten zeitweise Zugewinne verbuchen (insbesondere in Krisenzeiten wie zu Beginn des Ukraine-Kriegs), sanken dann aber wieder ab.</li>
+<li>FDP: Spürt im Vergleich zu ihrem Wahlergebnis einen besonders starken Abschwung, vor allem nachdem zentrale FDP-Forderungen in der Ampelkoalition nicht wie erhofft umgesetzt wurden.</li>
+</ul>
+</section>
+<section id="cducsu-wechselseitige-dynamik-mit-der-afd" class="level3">
+<h3 class="anchored" data-anchor-id="cducsu-wechselseitige-dynamik-mit-der-afd">CDU/CSU: Wechselseitige Dynamik mit der AfD</h3>
+<p>Die Union konnte anfangs von der Unzufriedenheit mit der Ampelkoalition profitieren und deutlich zulegen. Im weiteren Zeitverlauf ist allerdings eine auffällige Pendelbewegung zwischen CDU/CSU und AfD zu erkennen:</p>
+<ul>
+<li>Steigt die AfD, fällt in derselben Phase häufig die Union.</li>
+<li>Verbessert sich die CDU/CSU, verliert die AfD wieder etwas. Diese gegenläufige Entwicklung könnte darauf hindeuten, dass in Teilen ähnliche Wählerschichten angesprochen werden, die zwischen den beiden Parteien wechseln.</li>
+</ul>
+<p><img src="2502_Grafana Dashboard_Vergleich CDU AFD_Anna-Neifer.png" class="img-fluid"></p>
+</section>
+<section id="afd-kontinuierlicher-aufwärtstrend" class="level3">
+<h3 class="anchored" data-anchor-id="afd-kontinuierlicher-aufwärtstrend">AfD: Kontinuierlicher Aufwärtstrend</h3>
+<p>Die AfD hat in den meisten Umfragen seit der Wahl zugelegt und profitiert offenbar davon, wenn die Zufriedenheit mit den etablierten Parteien sinkt. Bei Themen wie Inflation, Energiekrise oder Flüchtlingspolitik hat die AfD offenbar Wählerinnen und Wähler mobilisieren können, die zuvor entweder der Union oder dem Nichtwählerlager zugeneigt waren.</p>
+</section>
+<section id="linke-und-kleinere-parteien" class="level3">
+<h3 class="anchored" data-anchor-id="linke-und-kleinere-parteien">Linke und kleinere Parteien</h3>
+<p>Die Linke pendelt in den Umfragen zumeist nur knapp über der Fünf-Prozent-Hürde. Sie hat in den letzten Jahren an Profil eingebüßt und scheint bislang nicht stark von der aktuellen Unzufriedenheit mit der Regierung zu profitieren. Weitere kleine Parteien (z.B. BSW oder Sonstige) liegen mehrheitlich stabil auf niedrigem Niveau. Einzelne Ausschläge nach oben sind selten und eher von kurzfristigen Ereignissen abhängig.</p>
+</section>
 </section>
 <section id="fazit" class="level2">
 <h2 class="anchored" data-anchor-id="fazit">Fazit</h2>
-<p>Mit Grafana lassen sich nicht nur technische oder wirtschaftliche Daten visualisieren, sondern auch politische Entwicklungen.</p>
+<p>Mit Grafana lassen sich nicht nur technische oder wirtschaftliche Daten visualisieren, sondern auch politische Entwicklungen. Die Daten seit der Bundestagswahl 2021 machen deutlich, dass die Regierungsparteien aktuell unter Druck stehen und teils kräftig in den Umfragen verloren haben. Während die CDU/CSU zunächst auf Kosten der Ampelparteien zulegen konnte, teilt sie sich mittlerweile offenbar ein ähnliches Wählerreservoir mit der AfD: Steigt die eine Partei, verliert die andere. Diese Tendenz wird allerdings bei den letzten Umfragen im Februar 2025 durchbrochen, wo beide Parteien in den Umfragen zulegten. Insgesamt deuten die Umfragen auf eine stark polarisierte politische Stimmung hin, in der populistische Positionen momentan eher an Zustimmung gewinnen als sachpolitische Regierungsarbeit.</p>
 <p>.</p>
-<p><img src="2502_sonntagsfrage_grafana_dashboard_anna-neifer.png" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 </section>
