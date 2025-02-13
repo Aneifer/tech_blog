@@ -2,7 +2,7 @@
 title: "Erste Schritte mit Python: Rechner und Zähler"
 author: "Anna Neifer"
 date: "2023-10-01"
-categories: [Code, Python, Rechner]
+categories: [Code, Python]
 image: "python_anna-neifer.jpg"
 ---
 
