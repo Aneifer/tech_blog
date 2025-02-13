@@ -1,48 +1,43 @@
 ---
-title: "Erste Schritte mit Python: Taschenrechner"
+title: "Erste Schritte mit Python: Rechner und Zähler"
 author: "Anna Neifer"
-date: "2025-01-03"
-categories: [Programmieren, Python, Taschenrechner]
+date: "2023-10-01"
+categories: [Code, Python, Rechner]
 image: "image.jpg"
 ---
 
-# Meine ersten Python-Skripte – Was hat mich motiviert?
-Nachdem ich die Grundlagen von Python kennengelernt hatte, wollte ich mein Wissen in kleinen Projekten anwenden. 
-Diese ersten Skripte halfen mir nicht nur, die Sprache besser zu verstehen, sondern auch, meine Motivation aufrechtzuerhalten.
+# Meine ersten Python-Skripte
+Ist programmieren überhaupt etwas für mich? Bevor ich mich intensiver mit Python beschäftigt habe, wollte ich herausfinden, ob ich mit der Programmiersprache etwas anfangen kann.
+Also habe ich zunächst mit der Lern-App "Mimo" experimentiert, hier geht es zur Webseite https://mimo.org/.
+Spielerisch und in kleinen Projekten lernen Nutzer mit Mimo die Grundlagen von Python kennen. 
 
-## Projekt 1: Einfache Taschenrechner-App
-Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.
+## Projekt 1: Einfache Trinkgeldrechner-App
+Eines der ersten Projekt war ein einfacher Trinkgeldrechner, der grundlegende mathematische Operationen durchführen kann.
 
 ```
-def addiere(a, b):
-    return a + b
+bill = 18.80
+tip_percentage = 0.15
+tax_percentage = 0.067
 
-def subtrahiere(a, b):
-    return a - b
+tip = bill * tip_percentage
+print(f"Tip: {tip}")
 
-def multipliziere(a, b):
-    return a * b
+tax = bill * tax_percentage
+print(f"Tax: {tax}")
 
-def dividiere(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Division durch Null ist nicht erlaubt."
+total = bill + tip + tax
 ```
 ### Beispielhafte Nutzung
 ```
-print(addiere(5, 3)) 
+print(f"Total: {total}")
 ``` 
-Ausgabe: 8
-
-```
-print(dividiere(10, 0))
-```
-Ausgabe: Division durch Null ist nicht erlaubt.
-Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.
+Ausgabe:
+Tip: 2.82
+Tax: 1.2596
+Total: 22.8796
 
 ## Projekt 2: Wortzähler für Texte
-Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.
+Ein anderes Projekt war ein Skript, das die Anzahl der Wörter in einem Text zählt.
 ```
 def wortzaehler(text):
     woerter = text.split()
@@ -51,15 +46,10 @@ def wortzaehler(text):
 
 ### Beispielhafte Nutzung
 ```
-text = "Python ist eine großartige Programmiersprache."
+text = "Sein, oder nicht sein, das ist hier die Frage."
 print(wortzaehler(text))
 ```
-Ausgabe: 6
-Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.
+Ausgabe: 9
 
 ## Die Motivation hinter den Projekten
-Diese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist.
-
-## Fazit
-Meine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen.
-
+Diese kleinen Projekte haben mir die Möglichkeit gegeben, praktische Probleme zu lösen und mein Wissen anzuwenden. Dadurch habe ich einen Einblick in Python bekommen und mich entschieden, ich möchte noch mehr mit Python arbeiten. 

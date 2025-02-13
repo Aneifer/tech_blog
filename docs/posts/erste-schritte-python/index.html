@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Anna Neifer">
-<meta name="dcterms.date" content="2025-01-03">
+<meta name="dcterms.date" content="2023-10-01">
 
-<title>Erste Schritte mit Python: Taschenrechner – Alles rund um Python, Daten und Künstliche Intelligenz</title>
+<title>Erste Schritte mit Python: Rechner und Zähler – Alles rund um Python, Daten und Künstliche Intelligenz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,11 +120,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Erste Schritte mit Python: Taschenrechner</h1>
+      <h1 class="title">Erste Schritte mit Python: Rechner und Zähler</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Programmieren</div>
+                <div class="quarto-category">Code</div>
                 <div class="quarto-category">Python</div>
-                <div class="quarto-category">Taschenrechner</div>
+                <div class="quarto-category">Rechner</div>
               </div>
                   </div>
   </div>
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 3, 2025</p>
+        <p class="date">October 1, 2023</p>
       </div>
     </div>
     
@@ -161,54 +161,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="meine-ersten-python-skripte-was-hat-mich-motiviert" class="level1">
-<h1>Meine ersten Python-Skripte – Was hat mich motiviert?</h1>
-<p>Nachdem ich die Grundlagen von Python kennengelernt hatte, wollte ich mein Wissen in kleinen Projekten anwenden. Diese ersten Skripte halfen mir nicht nur, die Sprache besser zu verstehen, sondern auch, meine Motivation aufrechtzuerhalten.</p>
-<section id="projekt-1-einfache-taschenrechner-app" class="level2">
-<h2 class="anchored" data-anchor-id="projekt-1-einfache-taschenrechner-app">Projekt 1: Einfache Taschenrechner-App</h2>
-<p>Mein erstes Projekt war ein einfacher Taschenrechner, der grundlegende mathematische Operationen durchführen konnte.</p>
-<pre><code>def addiere(a, b):
-    return a + b
+<section id="meine-ersten-python-skripte" class="level1">
+<h1>Meine ersten Python-Skripte</h1>
+<p>Ist programmieren überhaupt etwas für mich? Bevor ich mich intensiver mit Python beschäftigt habe, wollte ich herausfinden, ob ich mit der Programmiersprache etwas anfangen kann. Also habe ich zunächst mit der Lern-App “Mimo” experimentiert, hier geht es zur Webseite https://mimo.org/. Spielerisch und in kleinen Projekten lernen Nutzer mit Mimo die Grundlagen von Python kennen.</p>
+<section id="projekt-1-einfache-trinkgeldrechner-app" class="level2">
+<h2 class="anchored" data-anchor-id="projekt-1-einfache-trinkgeldrechner-app">Projekt 1: Einfache Trinkgeldrechner-App</h2>
+<p>Eines der ersten Projekt war ein einfacher Trinkgeldrechner, der grundlegende mathematische Operationen durchführen kann.</p>
+<pre><code>bill = 18.80
+tip_percentage = 0.15
+tax_percentage = 0.067
 
-def subtrahiere(a, b):
-    return a - b
+tip = bill * tip_percentage
+print(f"Tip: {tip}")
 
-def multipliziere(a, b):
-    return a * b
+tax = bill * tax_percentage
+print(f"Tax: {tax}")
 
-def dividiere(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Division durch Null ist nicht erlaubt."</code></pre>
+total = bill + tip + tax</code></pre>
 <section id="beispielhafte-nutzung" class="level3">
 <h3 class="anchored" data-anchor-id="beispielhafte-nutzung">Beispielhafte Nutzung</h3>
-<pre><code>print(addiere(5, 3)) </code></pre>
-<p>Ausgabe: 8</p>
-<pre><code>print(dividiere(10, 0))</code></pre>
-<p>Ausgabe: Division durch Null ist nicht erlaubt. Dieses Projekt half mir, Funktionen zu verstehen und die Bedeutung von Fehlerbehandlung zu erkennen.</p>
+<pre><code>print(f"Total: {total}")</code></pre>
+<p>Ausgabe: Tip: 2.82 Tax: 1.2596 Total: 22.8796</p>
 </section>
 </section>
 <section id="projekt-2-wortzähler-für-texte" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-2-wortzähler-für-texte">Projekt 2: Wortzähler für Texte</h2>
-<p>Als nächstes entwickelte ich ein Skript, das die Anzahl der Wörter in einem gegebenen Text zählt. Dies war besonders nützlich für die Analyse von Dokumenten.</p>
+<p>Ein anderes Projekt war ein Skript, das die Anzahl der Wörter in einem Text zählt.</p>
 <pre><code>def wortzaehler(text):
     woerter = text.split()
     return len(woerter)</code></pre>
 <section id="beispielhafte-nutzung-1" class="level3">
 <h3 class="anchored" data-anchor-id="beispielhafte-nutzung-1">Beispielhafte Nutzung</h3>
-<pre><code>text = "Python ist eine großartige Programmiersprache."
+<pre><code>text = "Sein, oder nicht sein, das ist hier die Frage."
 print(wortzaehler(text))</code></pre>
-<p>Ausgabe: 6 Durch dieses Projekt lernte ich den Umgang mit Zeichenketten und Listen in Python.</p>
+<p>Ausgabe: 9</p>
 </section>
 </section>
 <section id="die-motivation-hinter-den-projekten" class="level2">
 <h2 class="anchored" data-anchor-id="die-motivation-hinter-den-projekten">Die Motivation hinter den Projekten</h2>
-<p>Diese kleinen Projekte gaben mir die Möglichkeit, praktische Probleme zu lösen und mein Wissen anzuwenden. Jeder abgeschlossene Meilenstein stärkte meine Motivation und zeigte mir, wie mächtig und vielseitig Python ist.</p>
-</section>
-<section id="fazit" class="level2">
-<h2 class="anchored" data-anchor-id="fazit">Fazit</h2>
-<p>Meine ersten Python-Skripte waren einfache, aber effektive Werkzeuge, die mir halfen, die Grundlagen der Programmierung zu festigen und meine Begeisterung für das Coden weiter zu entfachen.</p>
+<p>Diese kleinen Projekte haben mir die Möglichkeit gegeben, praktische Probleme zu lösen und mein Wissen anzuwenden. Dadurch habe ich einen Einblick in Python bekommen und mich entschieden, ich möchte noch mehr mit Python arbeiten.</p>
 
 
 </section>

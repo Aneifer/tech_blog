@@ -1,5 +1,5 @@
 ---
-title: "Neue Perspektiven"
+title: "Grafana-Dashboard zur Sonntagsfrage"
 author: "Anna Neifer"
 date: "2025-02-10"
 categories: [Politik, Code, Grafana]

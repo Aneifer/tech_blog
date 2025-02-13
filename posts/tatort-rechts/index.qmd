@@ -1,0 +1,22 @@
+---
+title: "Tatort Rechts: Open Source Recherche-Tool"
+author: "Anna Neifer"
+date: "2021-02-01"
+categories: [Politik, Open Source]
+---
+
+![](tatort-rechts_anna-neifer.png)
+
+# Tatort Rechts: Open Source Recherche-Tool
+Fast ein Jahr lang hat mich das Projekt "Tatort Rechts" beschäftigt, so lange hat es sich gezogen von der ersten Antragsstellung beim Prototype Fund bis zur letztlichen Veröffentlichung. 
+Tatort Rechts ist ein web-basiertes Recherche-Tool, mit dem Daten zu rechten Vorfällen und Straftaten in Deutschland gezielt durchsucht werden können. Tatort Rechts ist ein Open Source Projekt. Der Code ist öffentlich auf GitHub verfügbar und jeder kann an dem Projekt weiter arbeiten. Hier geht es zum [Recherche-Tool](https://tatortrechts.de). 
+Zum ersten Mal ist es möglich, die öffentlich verfügbaren Daten von 13 Projekt-Seiten systematisch zu durchsuchen. Das hat es so bisher noch nicht gegeben. Die Daten liegen auf den Seiten der jeweiligen Projekte schon vor, mal auch auf einer Karte, mal nur als Text-Bausteine. Dadurch ist eine gezielte Suche in allen verfügbaren Daten bislang nicht möglich gewesen.
+
+## Gezielte Suchen
+Seit dem Jahr 2000 sind auf den 13 Projekt-Webseiten zusammen mehr als 16.000 Fälle registriert worden, die einen rechten, rassistischen oder antisemitischen Bezug haben. Nun können User*innen zum einen nach Fällen auf der Karte suchen und sich in ihr Bundesland bis zu ihrer Stadt reinzoomen. Zum anderen können Benutzer*innen über eine Suchleiste anhand von Schlagworten filtern, nach bestimmten Namen oder Taten suchen. Mit erweiterten Suchfiltern kann die Suche weiter eingegrenzt werden.
+
+## Zusammenhänge sehen
+Ich hoffe, dass es nun durch die visuell ansprechend und filterbar aufbereiteten Daten viel leichter sein wird, Zusammenhänge in den Daten zu erkennen. In den Daten sind Kundgebungen von Pegida oder Veranstaltungen der AfD. Brandanschläge auf Autos von Menschen, die einen Migrationshintergrund haben oder sich für Flüchtlinge einsetzen. Aber auch Todesdrohungen und körperliche Angriffe mit Messern und Waffen.
+
+## Daten
+Die verwendeten Daten sind alle schon öffentlich verfügbar. Doch bislang waren sie für eine systematische und einfache Suche nur schwer nutzbar. Allerdings sind die erfassten Daten sehr heterogen. Das bedeutet, eine Vergleichbarkeit ist nicht gegeben. Statistische Analysen sind anhand der Daten nicht möglich. Das ist auch nicht das Ziel dieses Projekts. Mit Tatort Rechts wollen wir es User*innen möglich machen, gezielt die erfassten Vorfälle durchsuchen zu können.
