@@ -1,7 +1,7 @@
 ---
 title: "Warum ich angefangen habe, Python zu lernen"
 author: "Anna Neifer"
-date: "2025-01-01"
+date: "2023-09-10"
 categories: [Programmieren, Community, Python]
 ---
 
@@ -29,22 +29,23 @@ Ich habe mich intensiv mit verschiedenen Programmiersprachen beschäftigt und mi
 ## Was ist Python?
 
 Python ist eine universelle, höhere Programmiersprache, die Anfang der 1990er Jahre von Guido van Rossum entwickelt wurde. Sie zeichnet sich durch ihre einfache Syntax und Lesbarkeit aus. Python unterstützt mehrere Programmierparadigmen, darunter die objektorientierte, die aspektorientierte und die funktionale Programmierung.
-Besonderheiten von Python
-Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code.
-Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass man einer Variablen zunächst eine Zahl und später einen Text zuweisen kann, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger.
-Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen.
-Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen.
+
+### Besonderheiten von Python
+- Einheitliche Formatierung: Anstelle von geschweiften Klammern oder Schlüsselwörtern zur Blockbildung setzt Python auf Einrückungen. Dies fördert einen übersichtlichen und gut lesbaren Code.
+- Dynamische Typisierung: In Python müssen Variablen nicht explizit deklariert werden. Der Datentyp einer Variablen wird zur Laufzeit basierend auf dem zugewiesenen Wert bestimmt. Das bedeutet, dass man einer Variablen zunächst eine Zahl und später einen Text zuweisen kann, ohne einen Fehler zu verursachen. Diese Flexibilität beschleunigt die Entwicklung und macht den Code anpassungsfähiger.
+- Umfangreiche Standardbibliothek: Python bietet eine breite Palette an Modulen und Bibliotheken für verschiedene Anwendungsbereiche, von Webentwicklung über Datenanalyse bis hin zu maschinellem Lernen.
+- Plattformunabhängigkeit: Python-Programme können auf verschiedenen Betriebssystemen wie Windows, macOS und Linux ausgeführt werden, ohne Änderungen am Code vornehmen zu müssen.
 
 ## Programmierparadigmen in Python
 
 Python unterstützt verschiedene Programmierparadigmen, die unterschiedliche Ansätze zur Strukturierung und Organisation von Code bieten:
-Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes.
-Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code.
-Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen.
+- Objektorientierte Programmierung (OOP): In der OOP werden Programme in Objekte unterteilt, die sowohl Daten als auch die darauf operierenden Methoden kapseln. Dies fördert die Wiederverwendbarkeit und Modularität des Codes.
+- Funktionale Programmierung: Dieser Ansatz betont die Verwendung von reinen Funktionen, die keine Seiteneffekte haben und den Programmzustand nicht verändern. Dies führt zu vorhersehbarem und leicht testbarem Code.
+- Aspektorientierte Programmierung (AOP): AOP ermöglicht es, Querschnittsbelange wie Logging oder Fehlerbehandlung modular zu behandeln, ohne den Hauptcode zu verunreinigen.
 
 ## Projekte auf Github
 
-Auf Github habe ich ein paar meiner Projekte hochgeladen, die sind hier zu finden: https://github.com/Aneifer.
+Auf [Github](https://github.com/Aneifer) habe ich ein paar meiner Projekte hochgeladen. Schaut gern rein und lasst uns da vernetzen.
 
 
 

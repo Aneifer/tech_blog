@@ -1,6 +1,6 @@
 ---
 title: "Hey, ich bin Anna Neifer"
-image: Anna Neifer.png
+image: Anna-Neifer.png
 about:
   template: jolla
   links:
