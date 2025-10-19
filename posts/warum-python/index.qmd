@@ -18,8 +18,8 @@ Mit Python habe ich Einblick in eine Sprache erlangt, die nicht nur in der Softw
 ## Warum ich mich für Python entschieden habe
 
 Ich habe mich intensiv mit verschiedenen Programmiersprachen beschäftigt und mich letztlich für Python entschieden. Das sind die Gründe:
+- Vielseitigkeit: Python findet Anwendung in der Datenanalyse, Machine Learning, künstlicher Intelligenz und Webentwicklung. Das sind genau meine Interessen. Diese Vielseitigkeit ermöglicht es mir, meine unterschiedlichen Projekte mit Python umzusetzen.
 - Lesbarkeit und Einfachheit: Python ist bekannt für seine klare und leicht verständliche Syntax. Der Code ist intuitiv und leicht zu verstehen, was besonders für Einsteiger attraktiv ist.
-- Vielseitigkeit: Python findet Anwendung in Webentwicklung, Datenanalyse, künstlicher Intelligenz und vielem mehr. Diese Vielseitigkeit ermöglicht es, unterschiedlichste Projekte umzusetzen.
 - Große Community: Eine aktive Gemeinschaft bedeutet viele Ressourcen und Unterstützung für Anfänger. Veranstaltungen wie die PyCon, die ich 2024 besucht habe, haben mir Gelegenheiten zum Austausch und zur Weiterbildung gegeben.
 - Beliebtheit: Python gehört zu den beliebtesten Programmiersprachen weltweit, derzeit laut [TIOBE Index](https://www.tiobe.com/tiobe-index/) auf Platz 1.
 
